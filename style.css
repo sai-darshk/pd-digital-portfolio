@@ -13,7 +13,7 @@
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100ch;
+  min-height: 50ch;
 }
 
 .pms{
@@ -76,6 +76,8 @@ section {
   font-family: 'Lato', sans-serif;
   margin: 4px 2px;
   cursor: pointer;
+  transition: box-shadow 1s;
+
 }
 
 .backtothetop:hover {
