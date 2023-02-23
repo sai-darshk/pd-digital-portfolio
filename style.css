@@ -49,9 +49,13 @@ nav li {
 nav a {
   display: block;
   padding: 30px;
-  color: #F2F2F2;
+  color: #ffffff;
   text-decoration: none;
 font-family: 'Lato', sans-serif;}
+
+nav a:hover {
+  color: #708090;
+}
 
 section {
   padding: 50px;
@@ -72,6 +76,11 @@ section {
   font-family: 'Lato', sans-serif;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.backtothetop:hover {
+  background-color: #ffffff;
+  color: black;
 }
 
 .linkdin {
@@ -101,11 +110,35 @@ section {
   display: grid;
   place-items: center;
   align-content: center;
+  display: block; 
+  margin: 100 auto;
+  text-align: center;
+
 }
 
 .subtitle {
   padding-bottom: 70%;
 }
+
+.download-btn {
+  background-color:  #708090;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+
 
 .hidden {
   opacity: 0;
