@@ -16,15 +16,9 @@
   min-height: none;
 }
 
-.mstatement{
-  margin-top: -800px;
-}
-
-.pms{
+.pms {
   display: grid;
   place-items: center;
-  margin-top: -900px;
-
 }
 
 .workpic{
